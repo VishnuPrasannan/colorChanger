@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <script>
+        function colorChanger(col) {
+            document.getElementById('screen-color').style.backgroundColor = col
+        }
+
+
+    </script>
+
+
+    <style>
+        .screen {
+            height: 50%;
+            
+
+
+        }
+
+        .red {
+            background-color: red;
+            color: white;
+        }
+
+        .blue {
+            background-color: blue;
+            color: white;
+        }
+
+        .green {
+            background-color: green;
+            color: white;
+
+        }
+
+        .yellow {
+            background-color: yellow;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="screen" id="screen-color">
+
+    </div><br>
+
+    <button class="red" onclick="colorChanger('red')">red</button>
+    <button class="blue" onclick="colorChanger('blue')">blue</button>
+    <button class="green" onclick="colorChanger('green')">green</button>
+    <button class="yellow" onclick="colorChanger('yellow')">yellow</button>
+
+
+
+</body>
+
+</html>
